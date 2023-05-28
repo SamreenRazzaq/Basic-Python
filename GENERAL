@@ -1,0 +1,128 @@
+Python 2.6.2 (r262:71605, Apr 14 2009, 22:40:02) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+    ****************************************************************
+    Personal firewall software may warn about the connection IDLE
+    makes to its subprocess using this computer's internal loopback
+    interface.  This connection is not visible on any external
+    interface and no data is sent to or received from the Internet.
+    ****************************************************************
+    
+IDLE 2.6.2      
+>>> print("hello")
+hello
+>>> ================================ RESTART ================================
+>>> 
+hello
+>>> hellow
+
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    hellow
+NameError: name 'hellow' is not defined
+>>> hello
+
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    hello
+NameError: name 'hello' is not defined
+>>> 
+>>> clc
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    clc
+NameError: name 'clc' is not defined
+>>> cls
+
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    cls
+NameError: name 'cls' is not defined
+>>> a=4
+>>> print(a)
+4
+>>> b=a
+>>> print(b)
+4
+>>> x=y=a
+>>> print(x)
+4
+>>> 4+5
+9
+>>> a+5
+9
+>>> 4/2
+2
+>>> a/2
+2
+>>> 2**3
+8
+>>> 5=6
+SyntaxError: can't assign to literal
+>>> 5==6
+False
+>>> 5 !=6
+True
+>>> 5>6
+False
+>>> 5<6
+True
+>>> 5%2
+1
+>>> "i am teaching" + "I2C"
+'i am teachingI2C'
+>>> LEN("FISH")
+
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    LEN("FISH")
+NameError: name 'LEN' is not defined
+>>> len("fish")
+4
+>>> len ("samreen")
+7
+>>> "world"[1]
+'o'
+>>> "world"[2:4]
+'rl'
+>>> "world"[0]
+'w'
+>>> "world"[2:3]
+'r'
+>>> "hello class"[2:4]
+'ll'
+>>> "hello i am in class"[2:7]
+'llo i'
+>>> "hy class how are you"[4:7]
+'las'
+>>> "abcdefgh"[2:5]
+'cde'
+>>> type(4)
+<type 'int'>
+>>> type(5.6)
+<type 'float'>
+>>> type("a")
+<type 'str'>
+>>> a=5
+>>> type a
+SyntaxError: invalid syntax
+>>> type(a)
+<type 'int'>
+>>> a='g'
+>>> type (a)
+<type 'str'>
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
